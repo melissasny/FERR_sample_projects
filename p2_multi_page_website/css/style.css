@@ -1,0 +1,150 @@
+/* 
+Project Name: Blank Template
+Client: Your Client
+Author: Melissa Shields
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP                   
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right; 
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left; 
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES                   
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+       /* set up a background image */
+     background-color:#000000;
+     background-image: url("../images/anat_cohen.jpg");
+     
+     /* the follow is the code to have the image display as a full page*/ 
+     background-position: 50% 10%;
+     background-attachment: fixed;
+     -webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+     
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     
+}
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+/* Center the container */
+#container {
+     position:relative;
+     margin:60px;
+     color:#000000;
+     font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#new_release, #anat_quote, #bio, #concert_sched{
+     width:455px;
+     line-height: 1;
+     font-size: 20px;
+     font-weight:bold;
+     margin-left:40px;
+     margin-top: 100px;
+     padding:1px 10px;
+     background-color:rgba(233,194,237,.6);
+}
+
+#new_release iframe{
+     margin-left: 60px;
+}
+
+#anat_quote{
+     margin-top:50px;
+}
+
+header {
+     
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+h1{
+     font-size: 60px;
+     margin-left: 40px;
+     width:370px;
+     background-color: rgba(247,247,148,.5);
+}
+
+a{
+     text-decoration:none;
+     color: black:
+     background-color:rgba(233,194,237,.6);
+     padding-right:3px;
+     padding-left:3px;
+     padding-bottom:3px;
+}
+
+nav{
+     font-size:28px;
+}
+
+nav li{
+     display:inline;
+     margin-right: 25px;
+}
+
+nav a{
+     color:white;
+     background: black;
+}
+
+a:hover, .selected{
+     color:rgb(233,194,237);
+}
+
+img{
+     margin-left: 87px;
+}
+
+
+
+

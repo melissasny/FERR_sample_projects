@@ -1,0 +1,26 @@
+div {
+	width:1024px;
+	margin:auto;
+	text-align:center;
+	background-color:white;
+	border: 3px solid black;
+}
+
+h2 {
+	color:blue; 
+	font-family: sans-serif;	
+}
+
+a {
+	color:red; 
+	text-decoration:none;
+}
+
+img {
+	border: 1px solid black;
+}
+
+dd a:hover{
+	text-decoration:underline;
+	color:blue;
+	;
